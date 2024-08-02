@@ -17,6 +17,7 @@
             <input type="file" id="fileInput" />
             <button id="loadFile">Load File</button>
         </section>
+        
         <section id="settings">
             <h2>Graph Customization</h2>
             <label for="graphType">Graph Type:</label>
@@ -48,9 +49,40 @@
 
             <button id="applySettings">Apply Settings</button>
         </section>
+        
         <section id="graph">
             <h2>Graph</h2>
             <canvas id="graphCanvas" width="800" height="600"></canvas>
+        </section>
+        
+        <section id="description">
+            <h2>Graph Types</h2>
+            <p>Our tool supports two types of graphs:</p>
+            <ul>
+                <li><strong>Line Graph:</strong> Ideal for showing trends over time.</li>
+                <li><strong>Bar Graph:</strong> Perfect for comparing quantities across categories.</li>
+            </ul>
+        </section>
+        
+        <section id="tutorial">
+            <h2>How to Use</h2>
+            <ol>
+                <li>Upload your data file using the "Upload Data File" section.</li>
+                <li>Customize your graph settings in the "Graph Customization" section.</li>
+                <li>Click "Apply Settings" to generate your graph.</li>
+            </ol>
+        </section>
+        
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <h3>What file formats are supported?</h3>
+            <p>Currently, we support CSV files with two columns for X and Y values.</p>
+            
+            <h3>Can I save the generated graph?</h3>
+            <p>Yes, you can right-click on the graph and select "Save Image As..." to save it to your computer.</p>
+            
+            <h3>How do I reset the graph settings?</h3>
+            <p>Simply refresh the page to reset all settings to their default values.</p>
         </section>
     </main>
     <script src="script.js"></script>

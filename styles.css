@@ -17,7 +17,6 @@ main {
     padding: 20px;
 }
 
-
 section {
     margin-bottom: 20px;
     padding: 15px;
@@ -46,4 +45,22 @@ button {
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ddd;
+}
+
+button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00332a;
+}
+
+#graphCanvas {
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
 }

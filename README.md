@@ -1,7 +1,8 @@
 # GraphCalc
 
 ## Overview
-
+![image](https://github.com/user-attachments/assets/90b88e4b-6486-4d7e-90d2-85066ab0fe1e)
+link: https://graph-calc-kappa.vercel.app/
 GraphPlotter is a web-based tool that allows users to visualize data through customizable line and bar graphs. Users can upload CSV files, set graph preferences, and instantly see their data plotted on an interactive canvas.
 
 ## Features
